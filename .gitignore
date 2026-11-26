@@ -1,0 +1,15 @@
+# 数据（体积大且受 Kaggle 许可约束，不进仓库）
+data/*.csv.gz
+data/*.csv
+data/*.parquet
+
+# 运行产物（可用 run_all.sh 复现）
+data/*.png
+data/*_*.csv
+!data/*.py
+
+# 系统与缓存
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
